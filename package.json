@@ -1,0 +1,21 @@
+{
+  "name": "node_chat_app",
+  "version": "1.0.0",
+  "description": "Node Chat Application Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon index.js",
+    "prod": "NODE_ENV=production node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhsanto/Node_Chat_Application.git"
+  },
+  "author": "Mahmodul Hasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhsanto/Node_Chat_Application/issues"
+  },
+  "homepage": "https://github.com/mhsanto/Node_Chat_Application#readme"
+}
