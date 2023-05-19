@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-const PeopleSchema = mongoose.Schema(
+
+const peopleSchema = mongoose.Schema(
   {
     name: {
       type: String,
@@ -22,7 +23,6 @@ const PeopleSchema = mongoose.Schema(
     },
     avatar: {
       type: String,
-      required: true,
     },
     role: {
       type: String,
@@ -34,5 +34,7 @@ const PeopleSchema = mongoose.Schema(
     timestamps: true,
   }
 );
-const People = mongoose.model("People", PeopleSchema);
+
+const People = mongoose.model("People", peopleSchema);
+
 module.exports = People;
